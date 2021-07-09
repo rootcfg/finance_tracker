@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.answers</OriginalElement>
+  <nodes>
+    <node x="915.863606340819" y="233.79788639365918">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.sqlite_master</node>
+    <node x="0.0" y="457.4616908850726">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.questions</node>
+    <node x="884.8636063408192" y="31.624834874504614">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.ar_internal_metadata</node>
+    <node x="0.0" y="172.0">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests</node>
+    <node x="868.8636063408189" y="482.3989431968296">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.schema_migrations</node>
+    <node x="249.87929326287974" y="457.4616908850726">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests_users</node>
+    <node x="0.0" y="720.9233817701453">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.answers</node>
+    <node x="0.0" y="-106.16908850726553">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.categories</node>
+    <node x="531.3867239101717" y="172.0">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.users</node>
+    <node x="924.8636063408192" y="610.0277410832233">8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.sqlite_sequence</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests_users" target="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests" relationship="REFERENCES">
+      <point x="-32.75" y="-38.5" />
+      <point x="282.62929326287974" y="363.0" />
+      <point x="93.5" y="363.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests" target="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.categories" relationship="REFERENCES">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.questions" target="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests" relationship="REFERENCES">
+      <point x="0.0" y="-72.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.tests_users" target="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.users" relationship="REFERENCES">
+      <point x="32.75" y="-38.5" />
+      <point x="348.12929326287974" y="368.75" />
+      <point x="624.8867239101717" y="368.75" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.answers" target="8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.questions" relationship="REFERENCES">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8853801169590644" showDependencies="false" x="546.2582562747688" y="435.0" />
+  <SelectedNodes>
+    <node>8d40c5f5-7be7-47c8-83b8-fac2b40b8fa8.TABLE:main.users</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
